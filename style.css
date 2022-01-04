@@ -1,0 +1,173 @@
+@font-face{
+	font-family :'ballpark';
+	src: url('ballpark.eot') format('eot'),
+		 url('ballpark.svg') format('svg'),
+		 url('ballpark.ttf') format('trutype'),
+		 url('ballpark.woff') format('woff'); 
+		}
+
+@font-face{
+	font-family :'dayrom';
+	src: url('dayrom.eot') format('eot'),
+		 url('dayrom.svg') format('svg'),
+		 url('dayrom.ttf') format('trutype'),
+		 url('dayrom.woff') format('woff'); 
+		}
+
+
+
+
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: auto;
+	background-image: url("images/fond_jaune.png");
+	font-family: 'dayrom', arial, sans-serif;
+	width : 80vw;
+
+
+}
+
+#logo
+{
+	font-family: 'ballpark', arial, serif;
+	font-size: 35px;
+}
+
+header
+{
+display: flex;
+justify-content: space-between;
+height: 150px;
+margin: auto;
+
+}
+
+header p
+{
+	padding-left: 40px;
+	font-size: 17px;
+
+
+}
+
+ul
+{
+	display: flex;
+	padding-right: 50px;
+	padding-left: 200px;
+	height: 80px;
+	align-items: flex-end;
+	font-size: 20px;
+}
+
+li
+{
+	list-style-type: none;
+	padding:  10px;
+}
+
+a
+{
+	text-decoration: none;
+	color:  black;
+
+}
+
+a:hover
+{
+	color:  #8E1407;
+	font-weight: bold;
+}
+
+#acceuil
+{
+	color : #8E1407;
+	text-decoration: underline;
+}
+
+#bannierephoto
+{
+	background-image: url("images/sanfrancisco.jpg");
+	height: 200px;
+	width: 900px;
+	margin:  auto;
+}
+
+#descriptionphoto
+{
+	color:  white;
+	background-color: rgba(0,0,0,0.7);
+	
+	font-size: 15px;
+	height: 30px;
+	position: relative;
+	top: 160px;
+	padding-top: 10px;
+	padding-left: 5px;
+
+}
+
+#boutonrouge
+{
+	color: white;
+	background-color: #8E1407;
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+	left: 780px;
+	top:  129px;
+}
+
+#logo2
+{
+	float: left;
+	clear: both;
+}
+article
+{
+
+	width: 60%;
+	padding-top: 8px;
+	margin-top: 30px;
+	position: relative;
+	left: 30px;
+	border: 1px solid black;
+	
+}
+article h1
+{
+	font-size: 25px;
+	text-transform: uppercase;
+	position: relative;
+	left : 10px;
+	bottom : 20px;
+}
+
+aside
+{
+	padding: 5px;
+	padding-left: 10px;
+	color:  white;
+	background-color: rgba(65,65,65,0.8);
+	width: 42%;
+	position: relative;
+	left:  650px;
+	bottom: 600px;
+}
+#flechegrise
+{
+	position: relative;
+	bottom: 400px;
+	right:  22px;
+}
+footer
+{
+	display: flex;
+	margin-left : 50px;
+	margin-right: 50px;
+	justify-content: space-between;
+}

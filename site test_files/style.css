@@ -1,0 +1,110 @@
+@font-face{
+	font-family :'ballpark';
+	src: url('ballpark.eot') format('eot'),
+		 url('ballpark.svg') format('svg'),
+		 url('ballpark.ttf') format('trutype'),
+		 url('ballpark.woff') format('woff'); 
+		}
+
+@font-face{
+	font-family :'dayrom';
+	src: url('dayrom.eot') format('eot'),
+		 url('dayrom.svg') format('svg'),
+		 url('dayrom.ttf') format('trutype'),
+		 url('dayrom.woff') format('woff'); 
+		}
+
+
+
+
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: auto;
+	background-image: url("images/fond_jaune.png");
+	font-family: 'dayrom', arial, sans-serif;
+	width : 80%;
+
+
+}
+
+#logo
+{
+	font-family: 'ballpark', arial, serif;
+	font-size: 35px;
+}
+
+header
+{
+display: flex;
+justify-content: space-between;
+height: 150px;
+
+
+}
+
+header p
+{
+	padding-left: 40px;
+	font-size: 17px;
+
+
+}
+
+ul
+{
+	display: flex;
+	padding-right: 100px;
+	padding-left: 200px;
+	height: 80px;
+	align-items: flex-end;
+	font-size: 20px;
+}
+
+li
+{
+	list-style-type: none;
+	padding:  10px;
+}
+
+a
+{
+	text-decoration: none;
+	color:  black;
+
+}
+
+a:hover
+{
+	color:  #8E1407;
+	font-weight: bold;
+}
+
+#acceuil
+{
+	color : #8E1407;
+	text-decoration: underline;
+}
+
+#bannierephoto
+{
+	background-image: url("images/sanfrancisco.jpg");
+	height: 200px;
+	width: 800px;
+	margin:  center;
+}
+
+#descriptionphoto
+{
+	color:  white;
+	border:  2px solid black;
+	display: inline;
+	width : 800px;
+	position: relative;
+	top: 177px;
+
+
+}
